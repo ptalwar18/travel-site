@@ -1,0 +1,19 @@
+/*this content sort of came from random place like MS Word*/
+.generic-content-container {
+    
+    p {
+/*        doesnt require unit of measurement*/
+        line-height: 1.65;
+        margin: 1.8rem 0;
+        
+        @mixin atSmall {
+            font-size: 1.125rem;
+        }
+    }
+    
+    p a {
+/*        400 for font weight is standard */
+        font-weight: 700;
+        
+    }
+}

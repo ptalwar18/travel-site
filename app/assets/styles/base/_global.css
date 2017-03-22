@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto',san-serif;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    /*        We can change how browsers calculate the true width of elements*/
+    /*        Our padding will still be applied but it won't effect our calculated width values*/
+    box-sizing: border-box;
+}
+
+a {
+    color: $mainOrange;
+}
