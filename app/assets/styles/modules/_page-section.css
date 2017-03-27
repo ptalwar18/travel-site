@@ -8,7 +8,7 @@
         background-color: $mainBlue;
         color: #FFF;
     }
-    &--no-b-padding-until-medium {
+   &--no-b-padding-until-medium {
         padding-bottom: 0px;
 
         @mixin atMedium {
