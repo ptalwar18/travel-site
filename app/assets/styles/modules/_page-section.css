@@ -27,8 +27,10 @@
         /*        top - vertical , center - horizontal , no-repeat - the background image should only display once*/
         /*        background-size: cover the containing div , doesnt matter size of window*/
         @mixin atLarge {
-            background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
-            background-size: cover; 
+            &.lazyloaded {
+                background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+                background-size: cover; 
+            }
         }
         
     }
